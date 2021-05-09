@@ -10,8 +10,8 @@ function wait(ms) {
         }, ms)
     })
 }
-
-{
+async function main()
+{ 
     let browser =await puppy.launch({
         headless:false,
         defaultViewport:false,
